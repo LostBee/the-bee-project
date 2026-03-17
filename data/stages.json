@@ -1,0 +1,149 @@
+[
+  {
+    "id": 1,
+    "slug": "setup-new-hive",
+    "name": "Setup / New hive",
+    "short_description": "Initial setup stage for newly added or acquired colonies.",
+    "determine_content": [
+      "You have just created this hive record or newly acquired a colony.",
+      "Core equipment and location are still being validated.",
+      "No clear seasonal operational rhythm has started yet."
+    ],
+    "immediate_tasks": [
+      "Confirm hive stand, orientation, and weather protection.",
+      "Prepare basic equipment and check hive integrity.",
+      "Review annual Luxembourg hive registration requirement."
+    ],
+    "near_future_tasks": [
+      "Move to Spring startup or Buildup based on colony activity.",
+      "Confirm local support contact (APIS/FUAL adviser).",
+      "Review key risks likely at your apiary location."
+    ],
+    "key_risks": ["registration-non-compliance", "hive-placement-issue"],
+    "next_stages": ["Spring startup", "Buildup"],
+    "sources": [
+      {
+        "label": "Administration vétérinaire / agriculture.public.lu",
+        "url": "https://agriculture.public.lu/dam-assets/formulare/alva/nutztiere/recensement-abeilles-personnel-distributed.pdf"
+      },
+      {
+        "label": "APIS Luxembourg",
+        "url": "https://apis.lu"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "spring-startup",
+    "name": "Spring startup",
+    "short_description": "Late winter to early spring restart and condition check.",
+    "determine_content": ["Temperatures and activity are rising.", "Colony begins regular flight and brood activity.", "Stores and colony viability must be confirmed after winter."],
+    "immediate_tasks": ["Check food stores and colony activity.", "Confirm queen-right signs and brood pattern basics.", "Clean/adjust entrance and external hive condition."],
+    "near_future_tasks": ["Prepare for Buildup stage and space planning.", "Monitor weather swings and feed pressure.", "Plan early swarm-pressure checks."],
+    "key_risks": ["low-stores-starvation", "cold-snap-stress", "weak-colony"],
+    "next_stages": ["Buildup"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu/fr/les-abeilles/maladies-des-abeilles/" }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "buildup",
+    "name": "Buildup",
+    "short_description": "Colony population growth and preparation for space needs.",
+    "determine_content": ["Brood and bee population are increasing.", "Frames become more occupied over time.", "Signs suggest upcoming space and swarm management decisions."],
+    "immediate_tasks": ["Evaluate colony strength and brood consistency.", "Prepare additional space equipment.", "Start systematic queen cell observation."],
+    "near_future_tasks": ["Transition into Expansion if hive crowding increases.", "Plan split options if colony is very strong.", "Review swarm/queen-event handling steps."],
+    "key_risks": ["swarm-pressure", "queen-cells-present", "poor-buildup"],
+    "next_stages": ["Expansion", "Swarm / queen-event stage"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "expansion",
+    "name": "Expansion",
+    "short_description": "Stage for adding space or colony multiplication decisions.",
+    "determine_content": ["Colony is strong and nearing space limits.", "Nectar flow and population can justify adding space.", "Split feasibility can be assessed from strength and brood status."],
+    "immediate_tasks": ["Determine if additional space/super is needed now.", "Add super or brood space where appropriate.", "Assess whether colony is strong enough for a split.", "Prepare extra hive if split is chosen."],
+    "near_future_tasks": ["Re-check crowding and swarm indicators.", "Confirm whether next stage is Honey production or Swarm/queen-event.", "Track split outcome and colony balance."],
+    "key_risks": ["swarm-pressure", "queen-cells-present", "multiple-queens-suspected"],
+    "next_stages": ["Swarm / queen-event stage", "Honey production"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "swarm-queen-event",
+    "name": "Swarm / queen-event stage",
+    "short_description": "Use when swarm pressure or queen-related events are present.",
+    "determine_content": ["Queen cells are visible or highly suspected.", "Swarm pressure signs are present (crowding, behavior, cells).", "Possible supersedure or multiple-queen transition signs."],
+    "immediate_tasks": ["Inspect for queen cells and classify urgency.", "Decide between observe, add space, or split.", "If multiple queens are suspected, monitor closely and verify if temporary.", "Stabilize colony before returning to standard seasonal flow."],
+    "near_future_tasks": ["Re-inspect within short interval for decision follow-up.", "If unresolved or unstable, separate/split colony as needed.", "Move to Expansion or Honey production after resolution."],
+    "key_risks": ["swarm-pressure", "multiple-queens-suspected", "queen-missing-problem"],
+    "next_stages": ["Expansion", "Honey production"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu/fr/les-abeilles/maladies-des-abeilles/" }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "honey-production",
+    "name": "Honey production",
+    "short_description": "Main nectar flow and honey accumulation phase.",
+    "determine_content": ["Strong foraging activity and supers filling.", "Hive is in active collection period.", "Management aims to avoid disruption while preserving space."],
+    "immediate_tasks": ["Ensure enough storage space for incoming nectar.", "Avoid unnecessary disturbance.", "Continue targeted checks for swarm signs and queen status."],
+    "near_future_tasks": ["Prepare extraction timing and equipment.", "Plan transition to post-harvest checks.", "Review predator pressure (especially hornet season)."],
+    "key_risks": ["asian-hornet", "swarm-pressure", "heat-stress"],
+    "next_stages": ["Honey extraction / post-harvest"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" },
+      { "label": "Luxembourg Environment Guidance", "url": "https://environnement.public.lu/dam-assets/fr/conserv_nature/publications/2024/20250228-imkerguide-en-online.pdf" }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "honey-extraction-post-harvest",
+    "name": "Honey extraction / post-harvest",
+    "short_description": "Extraction period and immediate transition after harvest.",
+    "determine_content": ["Honey removal is planned or underway.", "Primary nectar flow is ending.", "Post-harvest colony condition must be re-evaluated."],
+    "immediate_tasks": ["Prepare clean extraction workflow and transport.", "Complete post-harvest colony checks.", "Evaluate stores and colony condition for next seasonal phase."],
+    "near_future_tasks": ["Transition to Autumn/winter preparation.", "Update risk focus toward food/stress and weather.", "Confirm structural readiness before colder conditions."],
+    "key_risks": ["robbing-pressure", "low-stores-starvation", "hive-damage"],
+    "next_stages": ["Autumn / winter preparation"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "autumn-winter-prep",
+    "name": "Autumn / winter preparation",
+    "short_description": "Risk reduction and winter readiness stage.",
+    "determine_content": ["Harvest is complete and temperatures trend down.", "Colony must be prepared for lower activity period.", "Weather and food security become primary priorities."],
+    "immediate_tasks": ["Verify stores and colony strength before winter.", "Reduce entrances and protect against predators/robbing.", "Check hive weatherproofing and structural condition."],
+    "near_future_tasks": ["Finalize winter setup and disturbance minimization.", "Prepare winter monitoring routine.", "Move to Winter stage when colony settles."],
+    "key_risks": ["low-stores-starvation", "mice-entry", "water-ingress"],
+    "next_stages": ["Winter"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" },
+      { "label": "Luxembourg Environment Guidance", "url": "https://environnement.public.lu/dam-assets/fr/conserv_nature/publications/2024/20250228-imkerguide-en-online.pdf" }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "winter",
+    "name": "Winter",
+    "short_description": "Minimal intervention and external monitoring phase.",
+    "determine_content": ["Low external activity and low intervention period.", "Management is mostly external observation.", "Only essential checks are performed."],
+    "immediate_tasks": ["Keep interventions minimal.", "Perform external weather and entrance checks.", "Watch for storm, tipping, or water ingress issues."],
+    "near_future_tasks": ["Prepare spring restart checklist.", "Reconfirm equipment readiness for startup.", "Set transition to Spring startup when activity returns."],
+    "key_risks": ["storm-wind-damage", "water-ingress", "starvation-late-winter"],
+    "next_stages": ["Spring startup"],
+    "sources": [
+      { "label": "Luxembourg Environment Guidance", "url": "https://environnement.public.lu/dam-assets/fr/conserv_nature/publications/2024/20250228-imkerguide-en-online.pdf" }
+    ]
+  }
+]

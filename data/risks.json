@@ -1,0 +1,274 @@
+[
+  {
+    "id": 1,
+    "slug": "registration-non-compliance",
+    "name": "Annual hive registration not completed",
+    "category": "Legal / compliance",
+    "short_description": "Luxembourg annual hive census/registration not confirmed.",
+    "identify_content": ["No current-year registration record available.", "Uncertainty about mandatory annual declaration status."],
+    "resolve_now_content": ["Verify current registration requirement and forms.", "Submit required declaration to relevant authority."],
+    "resolve_next_content": ["Store proof of declaration in beekeeper notes.", "Set a yearly review routine before season starts."],
+    "seek_help_content": ["Contact Administration vétérinaire / official agriculture contacts if unsure."],
+    "related_stages": ["setup-new-hive"],
+    "sources": [
+      { "label": "Administration vétérinaire / agriculture.public.lu", "url": "https://agriculture.public.lu/dam-assets/formulare/alva/nutztiere/recensement-abeilles-personnel-distributed.pdf" }
+    ]
+  },
+  {
+    "id": 2,
+    "slug": "hive-placement-issue",
+    "name": "Hive placement or installation concern",
+    "category": "Structural / operational issues",
+    "short_description": "Hive location or setup may not be safe/compliant.",
+    "identify_content": ["Hive appears unstable, exposed, or poorly oriented.", "Apiary constraints raise uncertainty on placement rules."],
+    "resolve_now_content": ["Stabilize hive stand and immediate safety.", "Review local guidance before finalizing placement."],
+    "resolve_next_content": ["Adjust location/protection as needed.", "Re-check setup during next field visit."],
+    "seek_help_content": ["Ask APIS adviser for practical setup review."],
+    "related_stages": ["setup-new-hive", "autumn-winter-prep"],
+    "sources": [
+      { "label": "Administration vétérinaire / agriculture.public.lu", "url": "https://agriculture.public.lu" },
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 3,
+    "slug": "asian-hornet",
+    "name": "Asian hornet pressure",
+    "category": "Predator / pest issues",
+    "short_description": "Invasive predator pressure affecting foraging and colony stress.",
+    "identify_content": ["Hornet sightings near apiary or hive entrance.", "Increased defensive behavior or reduced foraging confidence."],
+    "resolve_now_content": ["Increase apiary monitoring and entrance protection where appropriate.", "Follow official local hornet reporting/guidance channels."],
+    "resolve_next_content": ["Coordinate with local beekeeper network and update mitigation setup.", "Review pressure trend through season."],
+    "seek_help_content": ["Seek APIS/local adviser support when pressure escalates or colonies weaken."],
+    "related_stages": ["honey-production", "autumn-winter-prep"],
+    "sources": [
+      { "label": "Luxembourg Environment Guidance", "url": "https://environnement.public.lu/dam-assets/fr/conserv_nature/publications/2024/20250228-imkerguide-en-online.pdf" },
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 4,
+    "slug": "swarm-pressure",
+    "name": "Swarm pressure",
+    "category": "Queen / swarm issues",
+    "short_description": "Colony showing signs of likely swarming behavior.",
+    "identify_content": ["Crowding and queen cell development signs.", "Strong colony with rapid buildup and reduced space."],
+    "resolve_now_content": ["Assess for queen cells and congestion.", "Choose observe/add space/split path quickly."],
+    "resolve_next_content": ["Re-inspect soon to confirm pressure reduced.", "Transition stage based on outcome."],
+    "seek_help_content": ["Contact APIS adviser if signs are persistent or unclear."],
+    "related_stages": ["buildup", "expansion", "swarm-queen-event", "honey-production"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 5,
+    "slug": "multiple-queens-suspected",
+    "name": "Multiple queens suspected",
+    "category": "Queen / swarm issues",
+    "short_description": "Possible temporary or unstable multi-queen situation.",
+    "identify_content": ["Conflicting queen signs during inspection.", "Supersedure or swarm-related context with unusual behavior."],
+    "resolve_now_content": ["Confirm signs and avoid rushed disruptive intervention.", "Increase short-interval monitoring and assess colony stability."],
+    "resolve_next_content": ["Decide whether to split/separate based on follow-up findings.", "Move back to stable stage once resolved."],
+    "seek_help_content": ["Consult APIS adviser if uncertainty remains after follow-up."],
+    "related_stages": ["expansion", "swarm-queen-event"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu/fr/les-abeilles/maladies-des-abeilles/" }
+    ]
+  },
+  {
+    "id": 6,
+    "slug": "queen-cells-present",
+    "name": "Queen cells present",
+    "category": "Queen / swarm issues",
+    "short_description": "Queen cells identified requiring stage decision.",
+    "identify_content": ["Visible queen cells in brood area.", "Associated swarm/supersedure indicators."],
+    "resolve_now_content": ["Classify situation and decide observe/space/split path.", "Document decision in hive notes."],
+    "resolve_next_content": ["Re-check colony at short interval.", "Update stage according to development."],
+    "seek_help_content": ["Seek adviser support if decision confidence is low."],
+    "related_stages": ["buildup", "expansion", "swarm-queen-event"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 7,
+    "slug": "queen-missing-problem",
+    "name": "Queen missing / queen problem",
+    "category": "Queen / swarm issues",
+    "short_description": "Potential queen loss or dysfunction signs.",
+    "identify_content": ["Irregular brood pattern and missing normal queen-right signs.", "Behavior indicates colony instability."],
+    "resolve_now_content": ["Confirm indicators carefully and reduce additional stress.", "Prioritize stabilization and monitoring plan."],
+    "resolve_next_content": ["Decide intervention path with local adviser support.", "Re-stage hive after stabilization."],
+    "seek_help_content": ["Seek APIS adviser rapidly if colony decline appears likely."],
+    "related_stages": ["swarm-queen-event", "buildup"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu/fr/les-abeilles/maladies-des-abeilles/" }
+    ]
+  },
+  {
+    "id": 8,
+    "slug": "low-stores-starvation",
+    "name": "Low stores / starvation risk",
+    "category": "Food / colony stress issues",
+    "short_description": "Insufficient food stores for current conditions.",
+    "identify_content": ["Light hive feel and weak foraging/colony signs.", "Seasonal gap with limited natural forage."],
+    "resolve_now_content": ["Confirm food deficit and apply immediate feeding strategy as appropriate.", "Minimize stress during intervention."],
+    "resolve_next_content": ["Re-check stores soon and adapt feeding plan.", "Track transition into safer store levels."],
+    "seek_help_content": ["Get APIS/local support if colony remains weak."],
+    "related_stages": ["spring-startup", "honey-extraction-post-harvest", "autumn-winter-prep", "winter"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 9,
+    "slug": "cold-snap-stress",
+    "name": "Cold snap stress",
+    "category": "Weather",
+    "short_description": "Sudden cold affects spring development and activity.",
+    "identify_content": ["Abrupt temperature drop during startup/buildup period.", "Reduced activity after earlier warm period."],
+    "resolve_now_content": ["Avoid unnecessary hive opening during cold event.", "Prioritize colony warmth and disturbance reduction."],
+    "resolve_next_content": ["Reassess once conditions stabilize.", "Adjust short-term stage expectations."],
+    "seek_help_content": ["Consult local adviser if repeated stress signs continue."],
+    "related_stages": ["spring-startup", "buildup"],
+    "sources": [
+      { "label": "Luxembourg Environment Guidance", "url": "https://environnement.public.lu/dam-assets/fr/conserv_nature/publications/2024/20250228-imkerguide-en-online.pdf" }
+    ]
+  },
+  {
+    "id": 10,
+    "slug": "weak-colony",
+    "name": "Weak colony",
+    "category": "Disease / brood issues",
+    "short_description": "Colony growth or vitality is below expected seasonal baseline.",
+    "identify_content": ["Low bee population relative to stage.", "Poor progression during normally active period."],
+    "resolve_now_content": ["Verify queen-right and brood pattern basics.", "Reduce avoidable stressors and support colony needs."],
+    "resolve_next_content": ["Track recovery over short interval.", "Escalate if no improvement."],
+    "seek_help_content": ["Use APIS disease/advisory pathways if suspicion increases."],
+    "related_stages": ["spring-startup", "buildup"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu/fr/les-abeilles/maladies-des-abeilles/" }
+    ]
+  },
+  {
+    "id": 11,
+    "slug": "poor-buildup",
+    "name": "Poor buildup",
+    "category": "Food / colony stress issues",
+    "short_description": "Expected population expansion is not occurring.",
+    "identify_content": ["Slow or stalled colony growth.", "Mismatch between season and colony development."],
+    "resolve_now_content": ["Check food, queen status, and environment constraints.", "Apply targeted support actions."],
+    "resolve_next_content": ["Reassess whether hive can enter Expansion.", "Adjust stage if colony remains delayed."],
+    "seek_help_content": ["Ask APIS adviser for localized diagnostic support."],
+    "related_stages": ["buildup"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 12,
+    "slug": "heat-stress",
+    "name": "Heat stress",
+    "category": "Weather",
+    "short_description": "High temperatures increase colony stress and management pressure.",
+    "identify_content": ["Sustained high temperatures and visible stress behavior.", "Reduced normal activity patterns in hot periods."],
+    "resolve_now_content": ["Improve shade/ventilation conditions where possible.", "Avoid disruptive interventions during peak heat."],
+    "resolve_next_content": ["Monitor for recovery as weather changes.", "Integrate heat mitigation into apiary setup."],
+    "seek_help_content": ["Consult local network if repeated heat events impact colony strength."],
+    "related_stages": ["honey-production"],
+    "sources": [
+      { "label": "Luxembourg Environment Guidance", "url": "https://environnement.public.lu/dam-assets/fr/conserv_nature/publications/2024/20250228-imkerguide-en-online.pdf" }
+    ]
+  },
+  {
+    "id": 13,
+    "slug": "robbing-pressure",
+    "name": "Robbing pressure",
+    "category": "Predator / pest issues",
+    "short_description": "Increased robbing risk around post-harvest period.",
+    "identify_content": ["Agitated entrance behavior and signs of inter-colony conflict.", "Seasonal context after extraction or dearth."],
+    "resolve_now_content": ["Reduce entrances and avoid exposing feed/honey.", "Stabilize hive environment quickly."],
+    "resolve_next_content": ["Continue short-term monitoring.", "Adapt apiary handling routines to reduce triggers."],
+    "seek_help_content": ["Seek adviser support if loss risk remains high."],
+    "related_stages": ["honey-extraction-post-harvest", "autumn-winter-prep"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 14,
+    "slug": "hive-damage",
+    "name": "Hive damage",
+    "category": "Structural / operational issues",
+    "short_description": "Physical hive body/equipment damage affecting colony safety.",
+    "identify_content": ["Visible cracks, instability, or broken components.", "Weather/predator impact signs."],
+    "resolve_now_content": ["Stabilize hive and protect colony from exposure.", "Repair or replace critical parts."],
+    "resolve_next_content": ["Inspect broader apiary for similar risks.", "Improve preventive maintenance routine."],
+    "seek_help_content": ["Ask experienced local beekeeper/APIS adviser if major damage."],
+    "related_stages": ["honey-extraction-post-harvest", "winter"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 15,
+    "slug": "mice-entry",
+    "name": "Mice entry risk",
+    "category": "Predator / pest issues",
+    "short_description": "Rodent intrusion risk during colder periods.",
+    "identify_content": ["Signs of disturbance near entrance.", "Cold-season conditions with inadequate entrance protection."],
+    "resolve_now_content": ["Apply or verify entrance reducers/guards.", "Remove attractants and secure hive area."],
+    "resolve_next_content": ["Re-check defenses during winter visits.", "Adjust setup if local pressure is high."],
+    "seek_help_content": ["Request local advice for recurring intrusion."],
+    "related_stages": ["autumn-winter-prep", "winter"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  },
+  {
+    "id": 16,
+    "slug": "water-ingress",
+    "name": "Water ingress",
+    "category": "Structural / operational issues",
+    "short_description": "Moisture entering hive due to weather or equipment issues.",
+    "identify_content": ["Visible moisture marks or damp components.", "Post-rain/winter signs of poor sealing."],
+    "resolve_now_content": ["Improve cover integrity and drainage immediately.", "Limit disturbance while restoring dry conditions."],
+    "resolve_next_content": ["Inspect after next weather event.", "Upgrade weatherproofing if recurring."],
+    "seek_help_content": ["Seek experienced support if colony health declines."],
+    "related_stages": ["autumn-winter-prep", "winter"],
+    "sources": [
+      { "label": "Luxembourg Environment Guidance", "url": "https://environnement.public.lu/dam-assets/fr/conserv_nature/publications/2024/20250228-imkerguide-en-online.pdf" }
+    ]
+  },
+  {
+    "id": 17,
+    "slug": "storm-wind-damage",
+    "name": "Storm / wind damage",
+    "category": "Weather",
+    "short_description": "Strong wind or storm events threatening hive stability.",
+    "identify_content": ["Recent severe weather event.", "Tilted or shifted hive components."],
+    "resolve_now_content": ["Secure hive physically and check immediate colony safety.", "Remove hazardous debris around apiary."],
+    "resolve_next_content": ["Reinforce stand/strapping for future events.", "Review shelter conditions."],
+    "seek_help_content": ["Get local support for major structural failures."],
+    "related_stages": ["winter", "autumn-winter-prep"],
+    "sources": [
+      { "label": "Luxembourg Environment Guidance", "url": "https://environnement.public.lu/dam-assets/fr/conserv_nature/publications/2024/20250228-imkerguide-en-online.pdf" }
+    ]
+  },
+  {
+    "id": 18,
+    "slug": "starvation-late-winter",
+    "name": "Late winter starvation risk",
+    "category": "Food / colony stress issues",
+    "short_description": "Food depletion risk near end of winter before spring flow.",
+    "identify_content": ["Late winter with low remaining stores.", "Weakness signs before spring resources improve."],
+    "resolve_now_content": ["Confirm stores and apply emergency feed approach as appropriate.", "Keep intervention targeted and minimal."],
+    "resolve_next_content": ["Monitor closely until spring startup conditions return.", "Transition to Spring startup with food-check priority."],
+    "seek_help_content": ["Consult APIS adviser when colony remains at risk."],
+    "related_stages": ["winter", "spring-startup"],
+    "sources": [
+      { "label": "APIS Luxembourg", "url": "https://apis.lu" }
+    ]
+  }
+]
